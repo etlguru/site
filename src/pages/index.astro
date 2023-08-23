@@ -1,58 +1,48 @@
 ---
-import Base from "layouts/Base.astro";
-import workflow from '/images/some-code-workflow.png';
+import Base from 'layouts/Base.astro'
+import workflow from '/src/assets/some-code-workflow.png'
+import Download from '@components/Download.astro'
 ---
 
-<Base title="Some-Code", description="Some-code is automation software with a focus on making life of developers easier">
-   <div class="container mx-auto text-center">
-        <p class="mb-4 text-lg"><span class="font-bold">Some code</span> is a workflow automation software which makes life of developers easier. 
-            It is very easy to extend and it is <span class="font-bold">free for personal use</span></p>
-        <p class="mb-4 text-lg"><span class="font-bold">Some code</span> has currently 86 actions and this number is growing</p>
-        <h2 class="mb-2 text-3xl">Workflow example</h2>
+<Base title="Some-Code" , description="Some-code is automation software with a focus on making life of developers easier">
+  <div class="container mx-auto text-center">
+    <p class="mb-4 text-lg">
+      <span class="font-bold">Some code</span> is a workflow automation software which makes life of developers easier. It is very easy to extend and
+      it is <span class="font-bold">free for personal use</span>
+    </p>
+    <p class="mb-4 text-lg"><span class="font-bold">Some code</span> has currently 86 actions and this number is growing</p>
+    <h2 class="mb-2 text-3xl">Workflow example</h2>
     <div class="flex w-full justify-center items-center">
-        <img src={workflow} class="m-2" alt="Some code workflow"/>
-    </div> 
+      <img src={workflow.src} class="m-2" alt="Some code workflow" />
+    </div>
     <h2 class="mb-2 text-3xl">Online workflow examples</h2>
-   </div>
+  </div>
 
-   <div class="py-4 border-b first:border-t">
-        <a class="text-2xl text-blue-700 hover:underline" href='https://portal.some-code.com/workflow/edit/000.000'>000.000 Getting started</a>
-    </div>
-    <div class="py-4 border-b first:border-t">
-        <a class="text-2xl text-blue-700 hover:underline" href='https://portal.some-code.com/workflow/edit/000.001'>000.001 Action and design objects</a>
-    </div>
-    <div class="py-4 border-b first:border-t">
-        <a class="text-2xl text-blue-700 hover:underline" href='https://portal.some-code.com/workflow/edit/000.002'>000.002 Workflow execution</a>
-    </div>
-    <div class="py-4 border-b first:border-t">
-        <a class="text-2xl text-blue-700 hover:underline" href='https://portal.some-code.com/workflow/edit/000.003'>000.003 Action execution</a>
-    </div>
-    <div class="py-4 border-b first:border-t">
-        <a class="text-2xl text-blue-700 hover:underline" href='https://portal.some-code.com/workflow/edit/000.004'>000.004 Workflow execution automation</a>
-    </div>
-    <div class="py-4 border-b first:border-t">
-        <a class="text-2xl text-blue-700 hover:underline" href='https://portal.some-code.com/workflow/edit/000.005'>000.005 Undestanding hooks</a>
-    </div>
-    <div class="py-4 border-b first:border-t">
-        <a class="text-2xl text-blue-700 hover:underline" href='https://portal.some-code.com/workflow/edit/000.006'>000.006 Loops</a>
-    </div>
-    <div class="py-4 border-b first:border-t">
-        <a class="text-2xl text-blue-700 hover:underline" href='https://portal.some-code.com/workflow/edit/000.999'>000.999 Backup</a>
-   </div>
-    <div class="container mx-auto text-center mt-6">
-    <h2 class="mb-4 mt-5 text-3xl">Download Some code</h2>
-        <a class="m-1 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-yellow-500 hover:border-transparent rounded" href='https://files.some-code.com/some-code-server-amd64.deb'>
-         Linux 64 bit deb
-        </a>
-      <a class="m-1 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-yellow-500 hover:border-transparent rounded" href='https://files.some-code.com/some_code_server_64.zip'>
-        Windows 64 Bit
-      </a>
-      <a class="m-1 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-yellow-500 hover:border-transparent rounded" href='https://files.some-code.com/some_code_desktop_64.zip'>
-        Windows 64 Bit Desktop 
-      </a>
-      <h2 class="mt-10 text-3xl">Questions?</h2>
-      <a class="font-semibold text-lg text-blue-500" href='mailto:support@some-code.com'>
-         support@some-code.com 
-       </a>
-    </div> 
+  <div class="py-4 border-b first:border-t">
+    <a class="text-2xl text-blue-700 hover:underline" href="https://portal.some-code.com/workflow/edit/000.000">000.000 Getting started</a>
+  </div>
+  <div class="py-4 border-b first:border-t">
+    <a class="text-2xl text-blue-700 hover:underline" href="https://portal.some-code.com/workflow/edit/000.001">000.001 Action and design objects</a>
+  </div>
+  <div class="py-4 border-b first:border-t">
+    <a class="text-2xl text-blue-700 hover:underline" href="https://portal.some-code.com/workflow/edit/000.002">000.002 Workflow execution</a>
+  </div>
+  <div class="py-4 border-b first:border-t">
+    <a class="text-2xl text-blue-700 hover:underline" href="https://portal.some-code.com/workflow/edit/000.003">000.003 Action execution</a>
+  </div>
+  <div class="py-4 border-b first:border-t">
+    <a class="text-2xl text-blue-700 hover:underline" href="https://portal.some-code.com/workflow/edit/000.004"
+      >000.004 Workflow execution automation</a
+    >
+  </div>
+  <div class="py-4 border-b first:border-t">
+    <a class="text-2xl text-blue-700 hover:underline" href="https://portal.some-code.com/workflow/edit/000.005">000.005 Undestanding hooks</a>
+  </div>
+  <div class="py-4 border-b first:border-t">
+    <a class="text-2xl text-blue-700 hover:underline" href="https://portal.some-code.com/workflow/edit/000.006">000.006 Loops</a>
+  </div>
+  <div class="py-4 border-b first:border-t">
+    <a class="text-2xl text-blue-700 hover:underline" href="https://portal.some-code.com/workflow/edit/000.999">000.999 Backup</a>
+  </div>
+  <Download />
 </Base>

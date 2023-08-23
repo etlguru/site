@@ -7,9 +7,8 @@ import sitemap from '@astrojs/sitemap'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://www.some-code.com',
-  integrations: [
-    tailwind(),
-    react(),
-    sitemap(),
-  ],
+  integrations: [tailwind(), react(), sitemap()],
+  experimental: {
+    assets: true,
+  },
 })
