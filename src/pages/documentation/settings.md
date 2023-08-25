@@ -5,7 +5,7 @@ title: Settings
 description: Some code settings
 draft: false
 tags: ['Some code', 'Settings']
-order: 12
+order: 16
 date: 2023-07-19
 ---
 

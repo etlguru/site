@@ -4,6 +4,7 @@ interface BlogPostFrontmatter {
     date: string;
     order: number;
     draft?: boolean;
+    url?: string;
 }
 
 export type {BlogPostFrontmatter}

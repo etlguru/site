@@ -3,7 +3,7 @@ layout: ../../layouts/Documentation.astro
 title: Installation on linux (server)
 description: Some code server installation on linux
 date: 2023-08-22
-order: 2
+order: 22
 tags: ['Installation', 'Linux']
 ---
 
@@ -43,10 +43,16 @@ http://localhost:3333
 
 Follow the setup procedure
 
-{{< image class="mx-auto d-block"  src="/images/event-loggers/shared/setup-admin-user.png" title="Create Admin User" >}}
-\
-{{< image class="mx-auto d-block"  src="/images/event-loggers/shared/setup-smtp-connection.png" title="Setting up email notifications" >}}
+## Creating admin user
 
-If it does not work try changing the port
+![Create Admin User](../../assets/setup-admin-server.png)
 
-[Settings]({{<relref "/docs/url-logger/settings" >}})
+## Setting email notifications
+
+![Setting up email notifications](../../assets/setup-smtp-server.png)
+
+> Email notifications are used for password recovery and user invitations
+
+If you are unable to see the screens above try changing the port or follow trouble-shooting procedure
+
+[Settings](settings)

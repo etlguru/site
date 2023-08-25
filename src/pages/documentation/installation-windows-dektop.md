@@ -3,7 +3,7 @@ layout: ../../layouts/Documentation.astro
 title: Installation on windows (desktop)
 description: Some code desktop installation on windows
 date: 2021-01-24
-order: 1
+order: 23
 tags: ['Installation', 'Windows']
 ---
 
@@ -23,4 +23,4 @@ Run setup and follow the wizard steps
 
 If you are unable to see the screens above try changing the port or follow trouble-shooting procedure
 
-[Settings]({{<relref "/docs/url-logger/settings" >}})
+[Settings](settings)

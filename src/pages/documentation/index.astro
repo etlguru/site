@@ -2,7 +2,6 @@
 import type { MarkdownInstance } from 'astro'
 import type { BlogPostFrontmatter } from '@types'
 import Base from 'layouts/Base.astro'
-import { formatDate } from '@utils'
 import Download from '@components/Download.astro'
 let posts = await Astro.glob<BlogPostFrontmatter>('./*.md')
 type Post = MarkdownInstance<BlogPostFrontmatter>
@@ -14,12 +13,12 @@ posts = posts.sort((a: Post, b: Post): number => {
 })
 ---
 
-<Base title="Some documentation" , description="Some documentation">
-  <h1 class="mb-8 text-6xl">Some documentation</h1>
+<Base title="Some Documentation" , description="Some Documentation">
+  <h1 class="mb-8 text-6xl">Some Documentation</h1>
   {
     posts.map((post) => (
       <div class="py-4 border-b first:border-t">
-        <a class="text-blue-700 hover:underline" href={post.url}>
+        <a class="text-blue-700 hover:underline text-xl" href={post.url}>
           {post.frontmatter.title}
         </a>
       </div>

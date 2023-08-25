@@ -1,0 +1,7 @@
+---
+const { prevPost, nextPost } = Astro.props
+---
+<div class="grid grid-cols-2 mt-3">
+  <div class="">{prevPost && <p class="text-xl">Back</p><a class="text-blue-500 hover:bg-blue-500 font-semibold hover:text-white" href={`${prevPost.url}/`}>{prevPost.frontmatter.title}</a>}</div>
+  <div class="ml-auto">{nextPost && <p class="text-xl">Next Page</p><a class="text-blue-500 hover:bg-blue-500 font-semibold hover:text-white" href={`${nextPost.url}/`}>{nextPost.frontmatter.title}</a>}</div>
+</div>

@@ -1,11 +1,26 @@
 ---
 import Base from "./Base.astro";
-import type { MarkdownLayoutProps } from "astro";
+import PrevNext from "@components/prevNext.astro";
+import type { MarkdownLayoutProps,MarkdownInstance } from "astro";
 import type { BlogPostFrontmatter } from "@types";
 import { formatDate } from "@utils";
 import Download from "@components/Download.astro";
 type Props = MarkdownLayoutProps<BlogPostFrontmatter>
-const {title,description,date} = Astro.props.frontmatter;
+const {title,description,date, order} = Astro.props.frontmatter;
+
+let posts = await Astro.glob<BlogPostFrontmatter>('../pages/documentation/*.md')
+
+type Post = MarkdownInstance<BlogPostFrontmatter>
+
+posts = posts.sort((a: Post, b: Post): number => {
+  if (a.frontmatter.order > b.frontmatter.order) return 1
+  if (b.frontmatter.order > a.frontmatter.order) return -1
+  return 0
+})
+
+ const prevPost = posts.findLast((post) => post.frontmatter.order < order)
+ const nextPost = posts.find((post) => post.frontmatter.order > order) 
+
 ---
 <style is:global>
   .copy-code {
@@ -27,6 +42,21 @@ const {title,description,date} = Astro.props.frontmatter;
   <div class="mb-8">
     <h1 class="text-3xl font-bold mb-2">{title}</h1>
  </div>
+ 
+
+<!-- <div class="absolute left-3">
+  <p class="text-2xl">Documentation</p>
+  {
+    posts.map((post) => (
+      <div class="py-1 ml-4">
+        <a class="text-black hover:bg-gray-500 text-xl hover:text-white" href={post.url}>
+          {post.frontmatter.title}
+        </a>
+      </div>
+    ))
+  }
+</div> -->
+
  <div class="prose max-w-none">
   <slot/>
 
@@ -70,6 +100,7 @@ const {title,description,date} = Astro.props.frontmatter;
 
   <p>{formatDate(date)}</p>
 </div>
+<PrevNext prevPost={prevPost} nextPost={nextPost} />
 <Download/>
 </Base>
 

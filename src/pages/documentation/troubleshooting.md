@@ -6,7 +6,7 @@ description: Some code troubleshooting
 draft: false
 tags: ['Some code', 'troubleshooting']
 date: 2023-07-19
-order: 14
+order: 20
 ---
 
 ## Windows
@@ -26,7 +26,7 @@ some_code.exe
 - Close Some code desktop
 - Open command line prompt and run
 
-```cnd
+```cmd
 cd C:\Program Files\DB Software Laboratory\Some Code Desktop\
 somecode.exe
 ```

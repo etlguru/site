@@ -2,19 +2,39 @@
 layout: ../../layouts/Documentation.astro
 author: Mike Rewnick
 title: Introduction
-description: Some code writes REST API call information (webhooks) into the database.
+description: Some Code Introduction
 draft: false
-tags: ['Some code', 'Event Loggers']
-order: 0
+tags: ['Some code', 'Introduction']
+order: 1
 date: 2023-07-19
 ---
 
-Some code writes REST API call information (webhooks) into the database.
+## About Some Code
 
-## Usage Example
+Some code is a workflow management software. It helps the end uses to automates routing tasks. Some code runs on windows and linux. It can be run inside web browser and as standalone desktop application. It is **free for personal use**
 
-{{< image class="mx-auto d-block"  src="/images/event-loggers/url-logger/url-logger-data-flow.png" title="Usage Example" >}}
-\
-{{< alert color="secondary" >}}
-Some code works on both Windows and Linux. Please contact us if you want to run Some code on a different OS. We will create a special build for you.
-{{< /alert >}}
+### Workflow example
+
+![Workflow example](../../assets/some-code-workflow.png)
+
+## Getting started
+
+Once installation is completed the user is presented with login dialogue.
+
+**Note:** it is possible to completely disable security using settings dialogue
+
+![Login dialogue](../../assets/login-dialogue.png)
+
+### Front page
+
+![Front Page](../../assets/front-page.png)
+
+**Note:** Some settings menu items only visible to administrators
+
+### List of available workflows
+
+![Workflow list](../../assets/workflow-grid.png)
+
+Click on the row to open the workflow
+
+**Note:** Users can only see workflows they have access to
