@@ -11,7 +11,7 @@ date: 2023-07-19
 
 ## About Some Code
 
-Some code is a workflow management software. It helps the end uses to automates routing tasks. Some code runs on windows and linux. It can be run inside web browser and as standalone desktop application. It is **free for personal use**
+Some code is a workflow management software. It helps the end uses to automates routine tasks. Some code runs on windows and linux. It can be run inside web browser and as standalone desktop application. It is **free for personal use**
 
 ### Workflow example
 
