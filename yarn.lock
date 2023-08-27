@@ -326,6 +326,11 @@
     "@babel/helper-validator-identifier" "^7.22.5"
     to-fast-properties "^2.0.0"
 
+"@cloudflare/pages-plugin-mailchannels@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@cloudflare/pages-plugin-mailchannels/-/pages-plugin-mailchannels-0.1.2.tgz#d8483ab342eb10da36257a4a8fa08d52c02f392d"
+  integrity sha512-xPZNM4NEhFkxnx6JNqoWzk3zgvyoPTFb5KbBz5Z1bc4X/D3gidR776WyUVQzR5OphzTqZfFiC9B8mYUyG0WEVg==
+
 "@emmetio/abbreviation@^2.3.3":
   version "2.3.3"
   resolved "https://registry.npmjs.org/@emmetio/abbreviation/-/abbreviation-2.3.3.tgz"
