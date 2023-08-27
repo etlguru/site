@@ -1,0 +1,22 @@
+---
+import Base from 'layouts/Base.astro'
+import Download from '@components/Download.astro'
+---
+
+<Base title="Some-Code" , description="Contact Some-code">
+  <div class="container mx-auto text-center">
+    <h1 class="mb-8 text-6xl">Contact Us</h1>
+    <form data-static-form-name="contact">
+      <div>
+        <label>Name<input class="border" type="text" name="name" /></label>
+      </div>
+      <div>
+        <label>Email<input class="border" type="email" name="email" /></label>
+      </div>
+      <div>
+        <label>Message<textarea class="border" name="message"></textarea></label>
+      </div>
+      <button class="m-1 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-yellow-500 hover:border-transparent rounded" type="submit">Send!</button>
+    </form>
+  </div>
+</Base>
