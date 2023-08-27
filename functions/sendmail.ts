@@ -4,6 +4,7 @@ export function onRequest(context) {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
+
       },
       body: JSON.stringify({
         personalizations: [
@@ -11,10 +12,10 @@ export function onRequest(context) {
             to: [{ email: 'test@some-code.com', name: 'Test Recipient' }],
           },
         ],
-        // from: {
-        //   email: 'sender@some-code-site.pages.dev',
-        //   name: 'Workers - MailChannels integration',
-        // },
+        from: {
+          email: 'sender@some-code.com',
+          name: 'Workers - MailChannels integration',
+        },
         subject: 'Look! No servers',
         content: [
           {
