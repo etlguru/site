@@ -1,4 +1,6 @@
-export async function onRequest(request: Request){
+
+export const onRequest(request) = {
+    async fetch(request: Request) {
       // only send the mail on "POST", to avoid spiders, etc.
       if (request.method == "POST") {
         const senderHostname = new URL(request.headers.get("referer") as string).hostname;
@@ -49,4 +51,5 @@ export async function onRequest(request: Request){
       return new Response("Not found", {
         status: 404,
       });
+    },
   };
