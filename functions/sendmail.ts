@@ -11,10 +11,10 @@ export function onRequest(context) {
             to: [{ email: 'test@some-code.com', name: 'Test Recipient' }],
           },
         ],
-        from: {
-          email: 'sender@some-code-site.pages.dev',
-          name: 'Workers - MailChannels integration',
-        },
+        // from: {
+        //   email: 'sender@some-code-site.pages.dev',
+        //   name: 'Workers - MailChannels integration',
+        // },
         subject: 'Look! No servers',
         content: [
           {
