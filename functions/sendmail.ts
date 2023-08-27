@@ -4,8 +4,6 @@ export function onRequest(context) {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
-        // 'X-MailChannels-SenderId': 'some-code.com',
-        // 'X-MailChannels-Auth-Id': 'some-code.com',
       },
       body: JSON.stringify({
         personalizations: [
@@ -14,7 +12,7 @@ export function onRequest(context) {
           },
         ],
         from: {
-          email: 'sender@some-code.com',
+          email: 'sender@some-code-site.pages.dev',
           name: 'Workers - MailChannels integration',
         },
         subject: 'Look! No servers',
