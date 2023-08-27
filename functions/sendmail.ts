@@ -1,6 +1,6 @@
 export function onRequest(context) {
  
-    const send_request = new Request('https://api.mailchannels.net/tx/v1/send', {
+  return fetch('https://api.mailchannels.net/tx/v1/send', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
@@ -24,7 +24,6 @@ export function onRequest(context) {
         ],
       }),
     })
-  
 
-  return new Response("Hello, world!")
+  //return new Response("Hello, world!")
 }
