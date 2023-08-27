@@ -10,6 +10,7 @@ export default defineConfig({
   experimental: {
     assets: true,
   },
+  compressHTML: true,
   image: {
     service: sharpImageService(),
   },
