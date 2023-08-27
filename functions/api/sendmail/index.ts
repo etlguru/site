@@ -12,7 +12,7 @@ export default {
           },
         ],
         from: {
-          email: 'sender@some-code.com,
+          email: 'sender@some-code.com',
           name: 'Workers - MailChannels integration',
         },
         subject: 'Look! No servers',
