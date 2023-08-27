@@ -1,4 +1,5 @@
-export default {
+export function onRequest(context) {
+ 
   async fetch(request) {
     send_request = new Request('https://api.mailchannels.net/tx/v1/send', {
       method: 'POST',
@@ -24,5 +25,8 @@ export default {
         ],
       }),
     })
-  },
+  }
+  
+
+  return new Response("Hello, world!")
 }
