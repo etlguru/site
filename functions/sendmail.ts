@@ -4,6 +4,7 @@ export function onRequest(context) {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
+        'X-MailChannels-Auth-Id': 'some-code.com'
       },
       body: JSON.stringify({
         personalizations: [
