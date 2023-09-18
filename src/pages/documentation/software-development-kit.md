@@ -7,7 +7,7 @@ order: 25
 tags: ['development']
 ---
 
-SDK holds the latest list of "Some code" actions and connections The purpose of this project is to help developers to design new actions according to their needs.
+SDK holds the latest list of "Some code" actions and connections. SDK helps developers to design new actions according to their needs.
 
 **Note:** Although it is possible to create actions and connections using some-code interface, SDK provides more connivent way of trouble-shooting the above
 
