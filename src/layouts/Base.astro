@@ -44,6 +44,17 @@ import Navbar from '@components/Navbar.astro'
       }
     </style>
   </head>
+
+<!-- Google tag (gtag.js) -->
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-2QFLZQKDFW"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2QFLZQKDFW');
+</script>
+
   <body>
     <Navbar />
     <div class="max-w-6xl mx-auto mt-16">
