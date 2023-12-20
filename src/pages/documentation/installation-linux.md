@@ -2,7 +2,7 @@
 layout: ../../layouts/Documentation.astro
 title: Installation on linux (server)
 description: Some code server installation on linux
-date: 2023-08-22
+date: 2023-12-20
 order: 22
 tags: ['Installation', 'Linux']
 ---
@@ -10,27 +10,28 @@ tags: ['Installation', 'Linux']
 Download the software and run the following commands
 
 ```
-sudo apt install ./url-logger-amd64.deb
+sudo apt install ./some-code-server-amd64.deb
+or
+sudo dpkg -i ./some-code-server-amd64.deb
 ```
 
 (This will install the software)
 
 ```
-
-sudo systemctl enable etl-tools-url-logger
+sudo systemctl enable some-code-server
 ```
 
 (This will enable the server)
 
 ```
-sudo systemctl start etl-tools-url-logger
+sudo systemctl start some-code-server
 ```
 
 (This will start the server)
 
 ```
 
-sudo systemctl stop etl-tools-url-logger
+sudo systemctl stop some-code-server
 ```
 
 (Use this command to stop the server)
