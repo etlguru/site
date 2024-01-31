@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: File browser
 description: Some Code File browser
 draft: false
-tags: ['Connection', 'Designer']
+tags: ["Connection", "Designer"]
 order: 12
 date: 2023-07-19
 ---

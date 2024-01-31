@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Working With Workflows
 description: Working With Workflows
 draft: false
-tags: ['Some code', 'Workflow']
+tags: ["Some code", "Workflow"]
 order: 2
 date: 2023-07-19
 ---

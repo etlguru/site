@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Troubleshooting
 description: Some code troubleshooting
 draft: false
-tags: ['Some code', 'troubleshooting']
+tags: ["Some code", "troubleshooting"]
 date: 2023-07-19
 order: 20
 ---

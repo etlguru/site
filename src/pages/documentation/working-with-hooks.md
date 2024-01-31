@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Working With Hooks
 description: Working With Hooks
 draft: false
-tags: ['Schedule', 'Workflow']
+tags: ["Schedule", "Workflow"]
 order: 9
 date: 2023-07-19
 ---

@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Repository Tables
 description: Some code Repository
 draft: false
-tags: ['Some code', 'Repository']
+tags: ["Some code", "Repository"]
 order: 15
 date: 2023-08-19
 ---

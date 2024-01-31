@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Introduction
 description: Some Code Introduction
 draft: false
-tags: ['Some code', 'Introduction']
+tags: ["Some code", "Introduction"]
 order: 1
 date: 2023-07-19
 ---

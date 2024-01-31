@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Workflow Parameters
 description: Some code Workflow parameters
 draft: false
-tags: ['Some code', 'Workflow']
+tags: ["Some code", "Workflow"]
 order: 4
 date: 2023-07-19
 ---
@@ -30,8 +30,8 @@ Here are two parameters one static and one calculated.
 ![Workflow Parameters dialogue](../../assets/workflow-parameters-script.png)
 
 ```javascript
-const dayjs = require('dayjs')
-return dayjs(Date.now()).format('YYYY-MM-DD hh:mm:ss')
+const dayjs = require("dayjs");
+return dayjs(Date.now()).format("YYYY-MM-DD hh:mm:ss");
 ```
 
 Once workflow is executed once the actual parameters values can be seen by clicking "Calculated parameters"

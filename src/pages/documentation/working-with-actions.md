@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Working With Actions
 description: Working With Actions
 draft: false
-tags: ['Action']
+tags: ["Action"]
 order: 5
 date: 2023-08-24
 ---
@@ -39,8 +39,8 @@ Every action may have parameters assigned to it. When action execution starts th
 ![Action Parameters](../../assets/action-calcualted-parameter.png)
 
 ```javascript
-const dayjs = require('dayjs')
-return '/Backup/backup' + dayjs(Date.now()).format('YYYY-MM-DD') + '.7z'
+const dayjs = require("dayjs");
+return "/Backup/backup" + dayjs(Date.now()).format("YYYY-MM-DD") + ".7z";
 ```
 
 ### Variables tab

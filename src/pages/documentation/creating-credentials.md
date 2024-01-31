@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Creating Credentials
 description: Creating Credentials
 draft: false
-tags: ['Connection', 'Designer']
+tags: ["Connection", "Designer"]
 order: 8
 date: 2023-07-19
 ---

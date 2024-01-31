@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Folders
 description: Some code Folders
 draft: false
-tags: ['Some code', 'Folders']
+tags: ["Some code", "Folders"]
 order: 19
 date: 2023-07-19
 ---

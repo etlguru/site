@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Working With Loops
 description: Working With Loops
 draft: false
-tags: ['Schedule', 'Workflow']
+tags: ["Schedule", "Workflow"]
 order: 10
 date: 2023-07-19
 ---

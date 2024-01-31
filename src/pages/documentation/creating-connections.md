@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Creating Connections
 description: Creating Connections
 draft: false
-tags: ['Connection', 'Designer']
+tags: ["Connection", "Designer"]
 order: 7
 date: 2023-07-19
 ---
@@ -69,14 +69,14 @@ To create new connection click **Add Connection**, fill in all necessary fields 
 **Validation Script Example**
 
 ```javascript
-const typeorm = require('typeorm')
-var result = { status: SUCCESS, message: 'Success' }
+const typeorm = require("typeorm");
+var result = { status: SUCCESS, message: "Success" };
 try {
   // Documentation
   // https://typeorm.io/
 
   const connection = {
-    name: 'test',
+    name: "test",
     type: connectionParameters.type,
     host: connectionParameters.host,
     port: Number(connectionParameters.port),
@@ -87,20 +87,20 @@ try {
       instanceName: connectionParameters.instanceName,
       encrypt: false,
     },
-  }
+  };
 
-  const dataSource = new typeorm.DataSource(connection)
+  const dataSource = new typeorm.DataSource(connection);
 
   // Testing connection
-  await dataSource.initialize()
+  await dataSource.initialize();
 
-  await dataSource.destroy()
+  await dataSource.destroy();
 } catch (e) {
-  result.status = ERROR
-  result.message = e.message
+  result.status = ERROR;
+  result.message = e.message;
 }
 
-return result
+return result;
 ```
 
 ## Publish Connection

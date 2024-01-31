@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Users
 description: Users
 draft: false
-tags: ['Some code', 'Event Loggers']
+tags: ["Some code", "Event Loggers"]
 order: 18
 date: 2023-07-19
 ---

@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Working With Scheduler
 description: Working With Scheduler
 draft: false
-tags: ['Schedule', 'Workflow']
+tags: ["Schedule", "Workflow"]
 order: 11
 date: 2023-07-19
 ---

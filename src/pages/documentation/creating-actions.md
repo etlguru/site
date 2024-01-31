@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Creating Actions
 description: Creating Actions
 draft: false
-tags: ['Action', 'Designer']
+tags: ["Action", "Designer"]
 order: 6
 date: 2023-08-24
 ---
@@ -68,20 +68,20 @@ Metadata Tab defines action look and feel
 **Script Example**
 
 ```javascript
-const { backup, cleanPath } = require('./utils')
+const { backup, cleanPath } = require("./utils");
 
 //NOTE: cleanPath function prevents access to the files or folders outside files directory
 
-actionParameters.ExecutionResult = SUCCESS
+actionParameters.ExecutionResult = SUCCESS;
 try {
-  const file = cleanPath(actionParameters.file)
-  await backup(file, logger, actionParameters.password)
+  const file = cleanPath(actionParameters.file);
+  await backup(file, logger, actionParameters.password);
 } catch (e) {
-  actionParameters.ExecutionResult = ERROR
-  stepExecutionInfo.message = e.message
-  logger.error(e.message)
+  actionParameters.ExecutionResult = ERROR;
+  stepExecutionInfo.message = e.message;
+  logger.error(e.message);
 }
-return actionParameters.ExecutionResult
+return actionParameters.ExecutionResult;
 ```
 
 ## Action code editor

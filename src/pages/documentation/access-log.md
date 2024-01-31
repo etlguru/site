@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/Documentation.astro
-author: Mike Rewnick
+author: Some Developer
 title: Access Log
 description: URL Logger Access Log
 draft: false
-tags: ['URL Logger', 'Access Log']
+tags: ["URL Logger", "Access Log"]
 date: 2023-07-19
 order: 13
 ---
