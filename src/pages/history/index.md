@@ -13,6 +13,7 @@ date: 2024-01-31
 
 - Added ChatGPT Action
 - Added Import Action
+- Added Twilio Action
 - Added Google Indexing API action
 - Fixed Linux Installation Issues
 - Total Number of actions is 96
