@@ -9,6 +9,10 @@ order: 1
 date: 2024-01-31
 ---
 
+## 2024-02-26, 1.0.3
+
+- MySQL package update
+
 ## 2024-02-01, 1.0.2
 
 - Added ChatGPT Action
