@@ -222,3 +222,9 @@ Del: Delete selected\
 
 ESC Go back/Close dialogue\
 Ctrl+S Save data\
+
+## Video Tutorial
+
+<div class="aspect-w-16 aspect-h-9">
+  <iframe src="https://www.youtube.com/embed/GXf_46MBM6o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

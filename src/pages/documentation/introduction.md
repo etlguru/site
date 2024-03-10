@@ -38,3 +38,9 @@ Once installation is completed the user is presented with login dialogue.
 Click on the row to open the workflow
 
 **Note:** Users can only see workflows they have access to
+
+## Video Tutorial
+
+<div class="aspect-w-16 aspect-h-9">
+  <iframe src="https://www.youtube.com/embed/W4BEVU3xOeA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

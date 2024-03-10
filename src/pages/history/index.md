@@ -11,6 +11,13 @@ date: 2024-02-26
 
 ## 2024-02-26, 1.0.3
 
+- Added Check Url action
+- Added File to array action
+- Total Number of actions is 96
+- Fixed upload icon bug
+
+## 2024-02-26, 1.0.3
+
 - MySQL package update
 
 ## 2024-02-01, 1.0.2
@@ -18,7 +25,7 @@ date: 2024-02-26
 - Added ChatGPT Action
 - Added Import Action
 - Added Twilio Action
-- Added Google Indexing API action
+- Added Google Indexing API Action
 - Fixed Linux Installation Issues
 - Total Number of actions is 96
 

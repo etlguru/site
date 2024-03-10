@@ -95,3 +95,9 @@ Action definition is stored in JSON format. Code editor allows advanced users to
 This dialogue publishes action to the public library so it can be used by all users of **Some code**
 
 ![Publish Action](../../assets/pubjish-action.png)
+
+## Video Tutorial
+
+<div class="aspect-w-16 aspect-h-9">
+  <iframe src="https://www.youtube.com/embed/bvQLPbaDF7k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

@@ -60,3 +60,9 @@ This tab provides a convenient way of checking action logic
 Input and output boxes provide a convenient way of debugging action execution
 
 ![Action Script](../../assets/action-debugging.png)
+
+## Video Tutorial
+
+<div class="aspect-w-16 aspect-h-9">
+  <iframe src="https://www.youtube.com/embed/S-eQnK6PmNk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

@@ -37,3 +37,9 @@ return dayjs(Date.now()).format("YYYY-MM-DD hh:mm:ss");
 Once workflow is executed once the actual parameters values can be seen by clicking "Calculated parameters"
 
 ![Calculated parameters](../../assets/workflow-parameters-calculation-result.png)
+
+## Video Tutorial
+
+<div class="aspect-w-16 aspect-h-9">
+  <iframe src="https://www.youtube.com/embed/b9S8g6f1g3k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
