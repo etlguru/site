@@ -6,10 +6,22 @@ description: Some code history of changes
 draft: false
 tags: ["Some code", "History"]
 order: 1
-date: 2024-02-26
+date: 2024-05-10
 ---
 
-## 2024-02-26, 1.0.3
+## 2024-04-28, 1.0.5
+
+- Added Telegram Send Audio action
+- Added Telegram Send File action
+- Added Telegram Send Photo action
+- Added Telegram Send Video action
+- Added Log Sorting
+- Improved Setup Process
+- Improved Google Indexing API action error handling
+- Total Number of actions is 102
+- Switched to NodeJs 20
+
+## 2024-02-26, 1.0.4
 
 - Added Check Url action
 - Added File to array action
