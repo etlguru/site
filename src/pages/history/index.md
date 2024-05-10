@@ -18,6 +18,7 @@ date: 2024-05-10
 - Added Log Sorting
 - Improved Setup Process
 - Improved Google Indexing API action error handling
+- Improved Pause action functionality
 - Total Number of actions is 102
 - Switched to NodeJs 20
 
