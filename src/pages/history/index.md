@@ -6,8 +6,22 @@ description: Some code history of changes
 draft: false
 tags: ["Some code", "History"]
 order: 1
-date: 2024-05-10
+date: 2024-06-09
 ---
+
+## 2024-10-06, 1.0.6
+
+- Improved debugging and logging
+- Added go back buttons to the execution log
+- Redesigned Workflow Parameters Dialogue
+- Redesigned Action Properties Dialogue
+- Added Execution Log Tab Action Properties Dialogue
+- Fixed Dialogue's height problem
+- Variables values are no longer written into the log
+- Fixed File browser dialogue bugs
+- Fixed progress refresh bugs
+- Added execution number to arrows
+- Various bug fixes and improvements
 
 ## 2024-04-28, 1.0.5
 
