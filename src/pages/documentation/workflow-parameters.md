@@ -4,14 +4,14 @@ author: Some Developer
 title: Workflow Parameters
 description: Some code Workflow parameters
 draft: false
-tags: ["Some code", "Workflow"]
+tags: ['Some code', 'Workflow']
 order: 4
-date: 2023-07-19
+date: 2024-06-09
 ---
 
 Every workflow may have parameters assigned to it. When workflow execution starts the parameters are calculated as the first step. If calculation fails execution is aborted.
 
-**Parameters can be**
+**Parameters can be:**
 
 1. Static
 1. EV Variables
@@ -30,13 +30,17 @@ Here are two parameters one static and one calculated.
 ![Workflow Parameters dialogue](../../assets/workflow-parameters-script.png)
 
 ```javascript
-const dayjs = require("dayjs");
-return dayjs(Date.now()).format("YYYY-MM-DD hh:mm:ss");
+const dayjs = require('dayjs');
+return dayjs(Date.now()).format('YYYY-MM-DD hh:mm:ss');
 ```
 
-Once workflow is executed once the actual parameters values can be seen by clicking "Calculated parameters"
+Once workflow is executed once the actual parameters values can be seen by clicking "Last Execution result"
 
 ![Calculated parameters](../../assets/workflow-parameters-calculation-result.png)
+
+**Env Variables**
+
+![Env Variables](../../assets/workflow-parameters-env-variables.png)
 
 ## Video Tutorial
 
