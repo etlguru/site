@@ -6,8 +6,14 @@ description: Some code history of changes
 draft: false
 tags: ["Some code", "History"]
 order: 1
-date: 2024-06-09
+date: 2024-07-03
 ---
+
+## 2024-03-07, 1.0.7
+
+- Fixed desktop backup bug
+- Fixed desktop from focus bug
+- Various bug fixes and improvements
 
 ## 2024-10-06, 1.0.6
 
