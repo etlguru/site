@@ -4,10 +4,18 @@ author: Some Developer
 title: History of Changes
 description: Some code history of changes
 draft: false
-tags: ["Some code", "History"]
+tags: ['Some code', 'History']
 order: 1
-date: 2024-07-03
+date: 2024-07-24
 ---
+
+## 2024-03-24, 1.0.8
+
+- Improved import into postgres performance by order of magnitude
+- Added GUID and RecordNo mapping type to import script dialogue
+
+* Fixed import script dialogue bug
+* Various small bug fixes and improvements
 
 ## 2024-03-07, 1.0.7
 
