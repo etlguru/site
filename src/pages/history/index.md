@@ -6,10 +6,10 @@ description: Some code history of changes
 draft: false
 tags: ["Some code", "History"]
 order: 1
-date: 2024-07-24
+date: 2024-08-02
 ---
 
-## 2024-03-24, 1.0.8
+## 2024-07-24, 1.0.8
 
 - Improved import into postgres performance by order of magnitude
 - Added GUID and RecordNo mapping type to import script dialogue
