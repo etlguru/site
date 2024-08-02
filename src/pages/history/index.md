@@ -9,6 +9,12 @@ order: 1
 date: 2024-08-02
 ---
 
+## 2024-08-02, 1.0.9
+
+- Search input is autofocused by default
+- Added JSON Object to Variable action
+- Total Number of actions is 103
+
 ## 2024-07-24, 1.0.8
 
 - Improved import into postgres performance by order of magnitude
