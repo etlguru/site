@@ -4,7 +4,7 @@ author: Some Developer
 title: Workflow Parameters
 description: Some code Workflow parameters
 draft: false
-tags: ['Some code', 'Workflow']
+tags: ["Some code", "Workflow"]
 order: 4
 date: 2024-06-09
 ---
@@ -30,8 +30,8 @@ Here are two parameters one static and one calculated.
 ![Workflow Parameters dialogue](../../assets/workflow-parameters-script.png)
 
 ```javascript
-const dayjs = require('dayjs');
-return dayjs(Date.now()).format('YYYY-MM-DD hh:mm:ss');
+const dayjs = require("dayjs");
+return dayjs(Date.now()).format("YYYY-MM-DD hh:mm:ss");
 ```
 
 Once workflow is executed once the actual parameters values can be seen by clicking "Last Execution result"
@@ -45,5 +45,5 @@ Once workflow is executed once the actual parameters values can be seen by click
 ## Video Tutorial
 
 <div class="aspect-w-16 aspect-h-9">
-  <iframe src="https://www.youtube.com/embed/b9S8g6f1g3k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/505OUcdbc2M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

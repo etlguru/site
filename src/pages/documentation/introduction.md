@@ -42,5 +42,5 @@ Click on the row to open the workflow
 ## Video Tutorial
 
 <div class="aspect-w-16 aspect-h-9">
-  <iframe src="https://www.youtube.com/embed/W4BEVU3xOeA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/_tx9YxH0Dkk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

@@ -4,7 +4,7 @@ author: Some Developer
 title: Working With Actions
 description: Working With Actions
 draft: false
-tags: ['Action']
+tags: ["Action"]
 order: 5
 date: 2023-08-24
 ---
@@ -39,8 +39,8 @@ Every action may have parameters assigned to it. When action execution starts th
 ![Action Parameters](../../assets/action-calcualted-parameter.png)
 
 ```javascript
-const dayjs = require('dayjs');
-return '/Backup/backup' + dayjs(Date.now()).format('YYYY-MM-DD') + '.7z';
+const dayjs = require("dayjs");
+return "/Backup/backup" + dayjs(Date.now()).format("YYYY-MM-DD") + ".7z";
 ```
 
 ### Variables tab
@@ -66,5 +66,5 @@ Execution Log Tab provides a convenient way of debugging action execution
 ## Video Tutorial
 
 <div class="aspect-w-16 aspect-h-9">
-  <iframe src="https://www.youtube.com/embed/S-eQnK6PmNk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/i4ih5OPMaTQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
